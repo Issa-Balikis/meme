@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:ital,wght@1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background: linear-gradient(90deg, #832183, #b16bb1);
+    padding: 20px;
+    color: white;
+}
+
+.h-img {
+    height: 100%;
+    margin-right: 6px;
+}
+
+h2 {
+
+    font-size: 1.3rem;
+    margin-right: auto;
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+main {
+    padding: 36px;
+}
+
+.forms {
+    display: grid;
+    grid-template: 40px 40px/ 1fr 1fr;
+    gap: 17px;
+}
+
+.f-input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+
+.btn {
+    grid-column: 1 / -1;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #832183, #b16bb1);
+    color: white;
+    cursor: pointer;
+    
+}
+.meme {
+    position: relative;
+}
+
+.meme--image {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
